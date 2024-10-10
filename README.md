@@ -1,8 +1,8 @@
-# LAS Vegetation Filtering Tool for High Resolution DTM Generation #
-A high-performance R tool designed to filter ground data from LAS point clouds obtained from under-canopy laser scanning and photogrammetric surveys. Specifically tailored for densely vegetated areas, this tool is built upon the [LidR](https://github.com/r-lidar/lidR) and [TreeLS](https://github.com/tiagodc/TreeLS) packages and leverages chunk processing to efficiently handle large datasets.
+# LF2T - LAS Forest Filtering Tool #
+LF2T is a high-performance R tool designed to filter ground data from LAS point clouds obtained from under-canopy laser scanning and photogrammetric surveys. Specifically tailored for densely vegetated areas, this tool is built upon the [LidR](https://github.com/r-lidar/lidR) and [TreeLS](https://github.com/tiagodc/TreeLS) packages and leverages chunk processing to efficiently handle large datasets.
 
 ## Description ##
-This tool aims to optimize the extraction of high-resolution ground data from dense vegetation, allowing for precise Digital Terrain Model (DTM) generation. By integrating advanced filtering techniques and surface refinement processes, it ensures the highest quality ground point data from complex forest environments.
+This tool is designed to enhance the extraction of high-resolution ground data from dense vegetation while refining noisy ground areas around tree stems. It enables the precise generation of Digital Terrain Models (DTMs), even in challenging, densely forested environments. By integrating advanced filtering techniques and surface refinement processes, it ensures high quality ground point data from complex forest environments.
 
 ## Main functionalities ##
 - Point cloud clipping
