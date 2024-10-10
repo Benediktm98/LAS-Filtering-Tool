@@ -5,15 +5,15 @@ A high-performance R tool designed to filter ground data from LAS point clouds o
 This tool aims to optimize the extraction of high-resolution ground data from dense vegetation, allowing for precise Digital Terrain Model (DTM) generation. By integrating advanced filtering techniques and surface refinement processes, it ensures the highest quality ground point data from complex forest environments.
 
 # Main functionalities #
-*Point cloud clipping
-*Voxel downsampling
-*Point cloud denoising
-*Reflectance and deviation filtering (only for TLS/ALS data)
-*Cloth simulation filtering
-*Tree detection and forest inventory
-*Generalized additive modeling for surface refinement
-*Point cloud smoothing
-*Point cloud rasterization 
+-*Point cloud clipping
+-*Voxel downsampling
+-*Point cloud denoising
+-*Reflectance and deviation filtering (only for TLS/ALS data)
+-*Cloth simulation filtering
+-*Tree detection and forest inventory
+-*Generalized additive modeling for surface refinement
+-*Point cloud smoothing
+-*Point cloud rasterization 
 
 # Input data #
 Georeferenced LAS point cloud: The primary input containing the LiDAR or photogrammetric data.
