@@ -18,5 +18,6 @@ This tool aims to optimize the extraction of high-resolution ground data from de
 # Input data #
 1. Georeferenced LAS point cloud
 2. Shapefile for the study area
+   
 *Both input datasets must share the same coordinate reference system (CRS).*
 
