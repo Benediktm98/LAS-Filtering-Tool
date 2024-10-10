@@ -1,4 +1,9 @@
 # LF<sup>3</sup>T - LAS Forest Floor Filtering Tool
+
+<div style="border:1px solid black; padding:10px; background-color:#fdd; color:red;">
+  The manuscript is still in preparation. The tool will become publicly available once the manuscript has been published. 
+</div>
+
 LF<sup>3</sup>T is a high-performance R tool designed to filter ground data from LAS point clouds obtained from under-canopy laser scanning and photogrammetric surveys. Specifically tailored for densely vegetated areas, this tool is built upon the [LidR](https://github.com/r-lidar/lidR) and [TreeLS](https://github.com/tiagodc/TreeLS) packages and leverages chunk processing to efficiently handle large datasets.
 
 ## Description ##
