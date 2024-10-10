@@ -1,10 +1,8 @@
-# LF<sup>2</sup>T - LAS Forest Filtering Tool
-
-# LF2T - LAS Forest Filtering Tool #
-LF2T is a high-performance R tool designed to filter ground data from LAS point clouds obtained from under-canopy laser scanning and photogrammetric surveys. Specifically tailored for densely vegetated areas, this tool is built upon the [LidR](https://github.com/r-lidar/lidR) and [TreeLS](https://github.com/tiagodc/TreeLS) packages and leverages chunk processing to efficiently handle large datasets.
+# LF<sup>3</sup>T - LAS Forest Floor Filtering Tool
+LF3T is a high-performance R tool designed to filter ground data from LAS point clouds obtained from under-canopy laser scanning and photogrammetric surveys. Specifically tailored for densely vegetated areas, this tool is built upon the [LidR](https://github.com/r-lidar/lidR) and [TreeLS](https://github.com/tiagodc/TreeLS) packages and leverages chunk processing to efficiently handle large datasets.
 
 ## Description ##
-This tool is designed to enhance the extraction of high-resolution ground data from dense vegetation while refining noisy ground areas around tree stems. It enables the precise generation of Digital Terrain Models (DTMs), even in challenging, densely forested environments. By integrating advanced filtering techniques and surface refinement processes, it ensures high quality ground point data from complex forest environments.
+This tool is designed to enhance the extraction of high-resolution ground data from dense vegetation while refining noisy ground areas around tree stems. It enables the precise generation of Digital Terrain Models (DTMs), even in challenging, densely forested environments. By integrating advanced filtering techniques and surface refinement processes, it ensures high quality ground point data from complex forest environments, suitable for high precision mapping and monitoring of a variety of under-canopy geomorphic processes.
 
 ## Main functionalities ##
 - Point cloud clipping
