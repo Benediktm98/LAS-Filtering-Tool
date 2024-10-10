@@ -15,7 +15,7 @@ This tool aims to optimize the extraction of high-resolution ground data from de
 - Point cloud smoothing
 - Point cloud rasterization
 
-<img src="https://github.com/Benediktm98/LAS-Filtering-Tool/blob/main/Github_GAM.png" alt="GAM processing steps" width="50%">
+<img src="https://github.com/Benediktm98/LAS-Filtering-Tool/blob/main/LAS_Filtering_Tool_GAM.png" alt="GAM processing steps" width="50%">
 Basic processing of the Generalized Additive Modeling (GAM). 1) Dynamically adjusted cutout around detected tree stems. 2) 2-D distance calculation from each point to the center. 3) Segmentation into prediction data (outer ring) and deleted data (inner ring). 4) Modeling based on a smoothing spline.
 
 
