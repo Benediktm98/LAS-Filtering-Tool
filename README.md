@@ -13,7 +13,9 @@ This tool aims to optimize the extraction of high-resolution ground data from de
 - Tree detection and forest inventory
 - Generalized additive modeling for surface refinement
 - Point cloud smoothing
-- Point cloud rasterization 
+- Point cloud rasterization
+
+- - - -
 
 ## Input data ##
 1. Georeferenced LAS point cloud
