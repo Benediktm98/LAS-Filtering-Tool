@@ -1,4 +1,4 @@
-<h1 LF<sup>2</sup>T>
+# LF<sup>2</sup>T - LAS Forest Filtering Tool
 
 # LF2T - LAS Forest Filtering Tool #
 LF2T is a high-performance R tool designed to filter ground data from LAS point clouds obtained from under-canopy laser scanning and photogrammetric surveys. Specifically tailored for densely vegetated areas, this tool is built upon the [LidR](https://github.com/r-lidar/lidR) and [TreeLS](https://github.com/tiagodc/TreeLS) packages and leverages chunk processing to efficiently handle large datasets.
