@@ -17,7 +17,7 @@ This tool aims to optimize the extraction of high-resolution ground data from de
 
 ## ##
 <img src="https://github.com/Benediktm98/LAS-Filtering-Tool/blob/main/LAS_Filtering_Tool_TreeDetection.png" alt="Tree detection processing steps">
-Key processing steps of the tree detection. 1) Point cloud classification into ground and off-ground. 2) Normalization of the point cloud using TIN. 3) Search for circular features using the treeMap() function from [TreeLS](https://github.com/tiagodc/TreeLS). 4). Stem point classification. 
+Key processing steps of the tree detection. 1) Point cloud classification into ground and off-ground. 2) Normalization of the point cloud using TIN. 3) Search for circular features using the treeMap() function. 4). Stem point classification. 
 <br>
 <br>
 <img src="https://github.com/Benediktm98/LAS-Filtering-Tool/blob/main/LAS_Filtering_Tool_GAM.png" alt="GAM processing steps">
