@@ -1,5 +1,22 @@
-# Input Data
-- Georeferenced LAS point cloud
-- Study area as SHP file
+# LAS Filtering Tool for High Resolution DTM Generation #
+A high-performance R tool designed to filter ground data from LAS point clouds obtained from under-canopy laser scanning and photogrammetric surveys. Specifically tailored for densely vegetated areas, this tool is built upon the [LidR]([http://www.google.fr/](https://github.com/r-lidar/lidR) "LidR") and TreeLS packages and leverages chunk processing to efficiently handle large datasets.
 
-ATTENTION: Both, your LAS point cloud and your SHP file should be in the same CRS.
+# Description #
+This tool aims to optimize the extraction of high-resolution ground data from dense vegetation, allowing for precise Digital Terrain Model (DTM) generation. By integrating advanced filtering techniques and surface refinement processes, it ensures the highest quality ground point data from complex forest environments.
+
+# Main functionalities #
+Point cloud clipping
+Voxel downsampling
+Point cloud denoising
+Reflectance and deviation filtering (only for TLS/ALS data)
+Cloth simulation filtering
+Tree detection and forest inventory
+Generalized additive modeling for surface refinement
+Point cloud smoothing
+Point cloud rasterization 
+
+# Input data #
+Georeferenced LAS point cloud: The primary input containing the LiDAR or photogrammetric data.
+Shapefile for the study area: Defines the area of interest for processing.
+Both input datasets must share the same coordinate reference system (CRS).
+
