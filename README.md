@@ -15,7 +15,7 @@ This tool aims to optimize the extraction of high-resolution ground data from de
 - Point cloud smoothing
 - Point cloud rasterization
 
-![picture alt](https://1drv.ms/i/s!Aq_N410_TZ4rhsQex76-n_0UN4tjZw?e=j1Gvxw "Title is optional")
+![Image Description](https://github.com/Benediktm98/LAS-Filtering-Tool/blob/main/Github_GAM.png)
 
 ## Input data ##
 1. Georeferenced LAS point cloud
