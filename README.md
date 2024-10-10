@@ -11,12 +11,12 @@ This tool aims to optimize the extraction of high-resolution ground data from de
 - Reflectance and deviation filtering (only for TLS/ALS data)
 - Cloth simulation filtering
 - Tree detection and forest inventory
-- Generalized additive modeling for surface refinement
+- Generalized Additive Modeling for surface refinement
 - Point cloud smoothing
 - Point cloud rasterization
 
-![Image Description](https://github.com/Benediktm98/LAS-Filtering-Tool/blob/main/Github_GAM.png)
-<img src="https://github.com/Benediktm98/LAS-Filtering-Tool/blob/main/Github_GAM.png" alt="Image Description" width="50%">
+<img src="https://github.com/Benediktm98/LAS-Filtering-Tool/blob/main/Github_GAM.png" alt="GAM processing steps" width="50%">
+Basic processing of the Generalized Additive Modeling (GAM). 1) Dynamically adjusted cutout around detected tree stems. 2) 2-D distance calculation from each point to the center. 3) Segmentation into prediction data (outer ring) and deleted data (inner ring). 4) Modeling based on a smoothing spline.
 
 
 ## Input data ##
